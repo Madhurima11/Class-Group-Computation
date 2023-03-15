@@ -19,3 +19,5 @@
 7. View the relation file by doing: bash view-relation-files.sh > out-view-relation-files.dat
 
 8. View all relations in a single folder: mv out-view-relation-files.dat output_folder_relations/
+
+#The file all-things.sh is a compact version with all the codes
