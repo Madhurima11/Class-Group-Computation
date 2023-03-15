@@ -4,7 +4,7 @@
 
 #The following things have to be done for testing purposes:
 
-1. Modify the file field_now.m according to the field required.
+1. Modify the file field_now.m according to the field required. // the output files of this folder is for n=10/
 
 2. Choose a value of k and test whether it is valid or not by running the file find-validity-of-k.m
 
@@ -14,7 +14,7 @@
 
 5. Run the pre-computation phase by: bash par-precomputing.sh
 
-6. Fing walk length by running: magma find-walk-length.m
+6. Find walk length by running: magma find-walk-length.m
 
 7. View the relation file by doing: bash view-relation-files.sh > out-view-relation-files.dat
 
