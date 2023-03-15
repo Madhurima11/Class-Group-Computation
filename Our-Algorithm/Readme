@@ -1,1 +1,21 @@
-This folder contains the details of the code regarding the new algorithm proposed by us.
+# This folder contains the details of the code regarding the new algorithm proposed by us.
+
+#The fields to be tested are present in the folder all-fields/
+
+#The following things have to be done for testing purposes:
+
+1. Modify the file field_now.m according to the field required.
+
+2. Choose a value of k and test whether it is valid or not by running the file find-validity-of-k.m
+
+3. Put proper values in threads-and-relations.sh according to the number of relations wanted
+
+4. Get the factor base beow Bach bound by running magma factor-base-below-bach-bound-random-seq-writing.m
+
+5. Run the pre-computation phase by: bash par-precomputing.sh
+
+6. Fing walk length by running: magma find-walk-length.m
+
+7. View the relation file by doing: bash view-relation-files.sh > out-view-relation-files.dat
+
+8. View all relations in a single folder: mv out-view-relation-files.dat output_folder_relations/
